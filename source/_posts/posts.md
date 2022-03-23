@@ -55,7 +55,7 @@ MyBlog文件夹安装 npm install --save hexo-deployer-git
  找到 *_config.yml*文件修改一下文件
 deploy:
 type: git
-repo: https://github.com/Zhanghuaxiao/Zhanghuaxiao.github.io.git
+repo: https://github.com/Honey608/Honey608.github.io.git
 branch: master
 <img style="width:600px;height:200px" src="/img/urlimg.png" class="full-image" /> 最后运行hexo clean(清除) hexo g(生成) hexo d(部署)
 点击查看效果: https://zhanghuaxiao.github.io/
