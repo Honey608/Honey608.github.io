@@ -53,7 +53,6 @@ language_switcher: false
 footer:
   # Specify the date when the site was setup. If not defined, current year will be used.
   #since: 2015
-  counter: true
   # Icon between year and copyright info.
   icon:
     # Icon name in Font Awesome. See: https://fontawesome.com/icons
@@ -717,11 +716,11 @@ firestore:
 busuanzi_count:
   enable: true
   total_visitors: true
-  total_visitors_icon: fa fa-user
+  total_visitors_icon: user
   total_views: true
-  total_views_icon: fa fa-eye
+  total_views_icon: eye
   post_views: true
-  post_views_icon: fa fa-eye
+  post_views_icon: eye
 
 
 # ---------------------------------------------------------------

@@ -119,10 +119,3 @@ search:
   field: post
   format: html
   limit: 10000
-
-# Post wordcount display settings
-# Dependencies: https://github.com/willin/hexo-wordcount
-post_wordcount:
-  item_text: true
-  wordcount: true
-  min2read: true
