@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Honey
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: Honey
+language: zh-CN
 timezone: ''
 
 # URL
@@ -68,6 +68,7 @@ index_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+    WEB: web
 tag_map:
 
 # Metadata elements
@@ -97,9 +98,31 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: hexo-theme-next-master
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# Extensions
+## Plugins: http://hexo.io/plugins/
+plugins: hexo-generate-feed
+
+sitemap: 
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+
+# Post wordcount display settings
+# Dependencies: https://github.com/willin/hexo-wordcount
+post_wordcount:
+  item_text: true
+  wordcount: true
+  min2read: true
