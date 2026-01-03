@@ -55,6 +55,7 @@
 <div class="theme-info">
   <div class="powered-by"></div>
   <span class="post-count">博客全站共{{ totalcount(site) }}字</span>
+  <span>|</span>
   <span>
       本站总访问量<span id="busuanzi_value_site_pv"></span>次
   </span>
