@@ -2,10 +2,11 @@
 title = "Vue双向绑定实现原理"
 date = 2019-07-09
 +++
+<!-- more -->
+    ```javascri
 
 > 留下源码以便以后调试回忆
-<!-- more -->
-    ```javascript
+pt
         <body>
             <div id="app">
                 <input type="text" v-model="text"> {{ text }}

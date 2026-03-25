@@ -5,10 +5,6 @@ date = 2019-02-18
 [taxonomies]
 tags = ["web"]
 +++
-
-> 音乐🎵搭配学习更美味哦！
-<img src="/img/callAndapply.jpg">
-建议看这片文章时可以点击[音乐🎵](https://music.163.com/#/song?id=1293886117)，来个单曲循，美滋滋
 <!-- more -->
 # 先拿call开刀
 > 作用：call和apply都是替换函数内错误的this
@@ -18,7 +14,12 @@ tags = ["web"]
         value:1
     }
     var b = function(){
-        console.log(this.value) // 如果不对this进行绑定执行bar() 会返回undefined
+     
+
+> 音乐🎵搭配学习更美味哦！
+<img src="/img/callAndapply.jpg">
+建议看这片文章时可以点击[音乐🎵](https://music.163.com/#/song?id=1293886117)，来个单曲循，美滋滋
+   console.log(this.value) // 如果不对this进行绑定执行bar() 会返回undefined
     }
     b.call(a) //1
 ```

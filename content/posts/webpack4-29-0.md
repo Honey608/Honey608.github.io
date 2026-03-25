@@ -5,13 +5,14 @@ date = 2019-01-25
 [taxonomies]
 tags = ["web"]
 +++
-
-> 不积跬步无以至千里，不积小流无以成江海
-<img src="/img/jy.png">
 <!-- more -->
 # 准备工作
 + 全局安装webpack和webpack-cli
-    >sudo npm install webpack -g
+    >sudo npm
+
+> 不积跬步无以至千里，不积小流无以成江海
+<img src="/img/jy.png">
+ install webpack -g
     >sudo npm install webpack-cli -g
 
 + 文件夹下局部安装

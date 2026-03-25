@@ -5,16 +5,17 @@ date = 2019-04-22
 [taxonomies]
 tags = ["web"]
 +++
-
-> slot
-<img src="/img/slot.jpeg" style="width:305px;heigth:277px">
-好久没更新博客啦，今天我又回来啦！
 <!-- more -->
 # 为什么会出现插槽
 我们经常需要向一个组件传递内容，像这样：
     ```javascript
         <alert-box>
-            Something bad happened
+            Som
+
+> slot
+<img src="/img/slot.jpeg" style="width:305px;heigth:277px">
+好久没更新博客啦，今天我又回来啦！
+ething bad happened
         </alert-box>
     ```
 但是现实却是很残酷，可能会给你来个Error!Something bad happened

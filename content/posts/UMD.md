@@ -5,13 +5,13 @@ date = 2026-01-03
 [taxonomies]
 tags = ["web"]
 +++
-
-> 什么是UMD
-
 <!-- more -->
 参考链接：
 
-[可能是最详细的UMD模块入门指南 - 掘金](https://juejin.cn/post/6844903927104667662#heading-7)
+[可能
+
+> 什么是UMD
+是最详细的UMD模块入门指南 - 掘金](https://juejin.cn/post/6844903927104667662#heading-7)
 
 ```javascript
 (function(root, factory) {

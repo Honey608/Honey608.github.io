@@ -5,10 +5,11 @@ date = 2019-08-23
 [taxonomies]
 tags = ["web"]
 +++
+<!-- more -->
+1.如果对以上方法还不了解的可以点击[传送门](https:
 
 > 最近的大事就是香港暴乱,做好自己就是对祖国的最好支持！
-<!-- more -->
-1.如果对以上方法还不了解的可以点击[传送门](https://cn.vuejs.org/v2/api/#vm-on)大致了解一下😯
+//cn.vuejs.org/v2/api/#vm-on)大致了解一下😯
 2.都说实践出真知，复制以下代码，动动小手点击下就全懂啦！
 ```javascript
 <body>

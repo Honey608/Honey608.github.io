@@ -5,10 +5,11 @@ date = 2021-08-17
 [taxonomies]
 tags = ["web"]
 +++
+<!-- more -->
+可以使用以下代码替代v
 
 > 知其然知其所以然
-<!-- more -->
-可以使用以下代码替代vue-router进行学习
+ue-router进行学习
 ```javascript
     //myVueRouter.js
 let Vue = null;

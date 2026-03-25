@@ -5,11 +5,11 @@ date = 2026-01-03
 [taxonomies]
 tags = ["web"]
 +++
+<!-- more -->
+## mac通过<
 
 > nvm安装
-
-<!-- more -->
-## mac通过<font style="color:rgb(38, 38, 38);">Homebrew安装nvm</font>
+font style="color:rgb(38, 38, 38);">Homebrew安装nvm</font>
 1. 下载<font style="color:rgb(38, 38, 38);">Homebrew</font>
 
 [Homebrew官网](https://brew.sh/)

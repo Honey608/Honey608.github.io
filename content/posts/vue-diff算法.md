@@ -5,11 +5,12 @@ date = 2019-01-30
 [taxonomies]
 tags = ["web"]
 +++
-
-> [可以先看Vuejs运行机制](https://zhanghuaxiao.github.io/2019/01/30/vue-source-code/)
 <!-- more -->
 #  当数据发生变化时，vue是怎么更新节点的？
-要知道渲染真实DOM的开销是很大的，比如有时候我们修改了某个数据，如果直接渲染到真实dom上会引起整个dom树的重绘和重排，有没有可能我们只更新我们修改的那一小块dom而不要更新整个dom呢？diff算法能够帮助我们。
+要知道渲染真实DOM的开销是很大的，比如有时候我们修改了某个数据，如果直接渲染到真实dom上会引起整个do
+
+> [可以先看Vuejs运行机制](https://zhanghuaxiao.github.io/2019/01/30/vue-source-code/)
+m树的重绘和重排，有没有可能我们只更新我们修改的那一小块dom而不要更新整个dom呢？diff算法能够帮助我们。
 
 我们先根据真实DOM生成一颗virtual DOM，当virtual DOM某个节点的数据改变后会生成一个新的Vnode，然后Vnode和oldVnode作对比，发现有不一样的地方就直接修改在真实的DOM上，然后使oldVnode的值为Vnode。
 

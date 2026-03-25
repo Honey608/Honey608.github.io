@@ -5,12 +5,12 @@ date = 2026-01-03
 [taxonomies]
 tags = ["web"]
 +++
-
-> wujie在项目中的报错
-
 <!-- more -->
 ## **请求资源报错**
-请求报错为：`Access to fetch at *** from origin *** has been blocked by CORS policy: No 'Access-Control-Allow-Origin'`
+请求
+
+> wujie在项目中的报错
+报错为：`Access to fetch at *** from origin *** has been blocked by CORS policy: No 'Access-Control-Allow-Origin'`
 
 **原因：** 子应用跨域或者请求子应用资源没有携带 cookie
 

@@ -5,10 +5,11 @@ date = 2019-05-31
 [taxonomies]
 tags = ["web"]
 +++
+<!-- more -->
+# ES6 Promise 
 
 > 温故而知新，可以为师矣
-<!-- more -->
-# ES6 Promise 用法讲解
+用法讲解
 
 Promise是一个构造函数，自己身上有all、reject、resolve这几个眼熟的方法，原型上有then、catch等同样很眼熟的方法。
 ## resolve参数（可以理解合格的内容）

@@ -5,10 +5,11 @@ date = 2019-02-14
 [taxonomies]
 tags = ["web"]
 +++
+<!-- more -->
+# 关于scrollTo
 
 > 心有猛虎，细嗅蔷薇
-<!-- more -->
-# 关于scrollTop,offsetTop,scrollLeft,offsetLeft用法介绍
+p,offsetTop,scrollLeft,offsetLeft用法介绍
 ```javascript
 页可见区域宽： document.body.clientWidth;
 网页可见区域高： document.body.clientHeight;

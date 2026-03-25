@@ -5,11 +5,12 @@ date = 2019-01-27
 [taxonomies]
 tags = ["web"]
 +++
-
-> 同样是9年义务教育，你为何这么优秀
 <!-- more -->
 
->译者：[Wpeach](https://juejin.im/post/5c49b822f265da6142743a87)
+>译者：[Wpeach](https:
+
+> 同样是9年义务教育，你为何这么优秀
+//juejin.im/post/5c49b822f265da6142743a87)
  原文作者：Matthew Rayfield 
  原文地址：[Animating URLs with Javascript and Emojis](http://matthewrayfield.com/articles/animating-urls-with-javascript-and-emojis/)
  

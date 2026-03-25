@@ -5,12 +5,12 @@ date = 2026-01-03
 [taxonomies]
 tags = ["nginx"]
 +++
-
-> nginx使用
-
 <!-- more -->
 
-## <font style="color:rgb(34, 34, 34);">第 1 章 Nginx 简介</font>
+## <font s
+
+> nginx使用
+tyle="color:rgb(34, 34, 34);">第 1 章 Nginx 简介</font>
 ### <font style="color:rgb(34, 34, 34);">1.1 什么是 Nginx</font>
 + <font style="color:rgb(34, 34, 34);">Nginx是一款轻量级的Web 服务器/反向代理服务器及电子邮件（IMAP/POP3）代理服务器，在BSD-like 协议下发行。其特点是占有内存少，并发能力强，事实上nginx的并发能力在同类型的网页服务器中表现较好，中国大陆使用nginx网站用户有：百度、京东、新浪、网易、腾讯、淘宝等。</font>
 + <font style="color:rgb(34, 34, 34);">英文主页：</font>[http://nginx.net](http://nginx.net/)<font style="color:rgb(34, 34, 34);">  

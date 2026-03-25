@@ -5,11 +5,12 @@ date = 2020-05-26
 [taxonomies]
 tags = ["web"]
 +++
-
-> Vue中的inheritAttrs，$attrs，$listeners使用总结
 <!-- more -->
 # 使用场景
-> 当你想向嵌套层级比较深组件数据传递，只能由父组件传递给子组件，子组件再传递给孙子组件,当传递十几个当情况，我们会在每个组件不停的props，每个必须写很多遍，除了vuex的父子组件通信，也可以通过inheritAttrs选项，以及实例属性$attrs
+> 当你想向嵌套层级比较深组件数据传递，只能由父组件传递给子组件，子组
+
+> Vue中的inheritAttrs，$attrs，$listeners使用总结
+件再传递给孙子组件,当传递十几个当情况，我们会在每个组件不停的props，每个必须写很多遍，除了vuex的父子组件通信，也可以通过inheritAttrs选项，以及实例属性$attrs
 
 ```javascript
       <template>

@@ -5,10 +5,11 @@ date = 2019-01-29
 [taxonomies]
 tags = ["web"]
 +++
+<!-- more -->
+>[原文地址](https://www.cnblogs.com/loves
 
 > 我愿化身石桥，受五百年风吹，五百年日晒，五百年雨淋，只求她从桥上经过
-<!-- more -->
->[原文地址](https://www.cnblogs.com/lovesong/p/6413546.html)
+ong/p/6413546.html)
 # gulp
 
 gulp强调的是前端开发的工作流程，我们可以通过配置一系列的task，定义task处理的事务（例如文件压缩合并、雪碧图、启动server、版本控制等），然后定义执行顺序，来让gulp执行这些task，从而构建项目的整个前端开发流程。

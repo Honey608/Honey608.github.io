@@ -5,15 +5,16 @@ date = 2019-11-25
 [taxonomies]
 tags = ["web"]
 +++
-
-> Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行时
-<img style="height: 176px;width: 50%;" src="/img/libuv.png">
 <!-- more -->
 
 1. **在node_modules下的文件直接使用 require('nav') 使用** 
 ```
     node_modules下创建nav文件夹再创建nav.js
-    //nav.js *** 主要使用nmp init -y 初始化 package.json文件中 "main": "nav.js" ***
+    //nav.js *** 主
+
+> Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行时
+<img style="height: 176px;width: 50%;" src="/img/libuv.png">
+要使用nmp init -y 初始化 package.json文件中 "main": "nav.js" ***
 
         const str = 'hello world come from nav.js'
         module.exports = str

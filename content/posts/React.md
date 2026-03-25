@@ -5,12 +5,12 @@ date = 2026-01-03
 [taxonomies]
 tags = ["web"]
 +++
-
-> react学习记录
-
 <!-- more -->
 ## 学习资料
-**<font style="color:rgb(23, 43, 77);">react源码解读</font>**
+**<fo
+
+> react学习记录
+nt style="color:rgb(23, 43, 77);">react源码解读</font>**
 
 + [<font style="color:rgb(0, 82, 204);">React技术揭秘</font>](https://react.iamkasong.com/)
 

@@ -2,10 +2,11 @@
 title = "Vuejs源码解析"
 date = 2019-01-31
 +++
+<!-- more -->
+[vue.js源码地址](https://github.com
 
 > 除了使用vue工具，更想揭开神秘面纱,开始一场神秘之旅吧
-<!-- more -->
-[vue.js源码地址](https://github.com/vuejs/vue/blob/dev/src/core/instance/index.js)
+/vuejs/vue/blob/dev/src/core/instance/index.js)
 # 看后感觉内容不错的参考资料
 1.[Vue技术内幕](http://hcysun.me/vue-design/art/2vue-constructor.html)
 # 从一个简单的example开始
