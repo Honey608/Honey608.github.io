@@ -1,4 +1,5 @@
 +++
+paginate_by = 20
 title = "Posts"
 sort_by = "date"
 
