@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block main_content %}
+    {% if section.extra.section_path -%}
+        {% set section = get_section(path=section.extra.section_path) %}
+    {% endif -%}
+
+    {{ post_macros::page_header(title=section.title) }}
+
+    {% if section.content %}
+        <div class="section-content">
+            {{ section.content | safe }}
+        </div>
+    {% endif %}
+
+    <main class="thoughts-feed">
+        {%- if paginator %}
+            {%- set show_pages = paginator.pages -%}
+        {% else %}
+            {%- set show_pages = section.pages -%}
+        {% endif -%}
+
+        {%- for page in show_pages %}
+            <div class="thought-item">
+                <div class="thought-body">
+                    {{ page.content | safe }}
+                </div>
+                <time class="thought-date">{{ page.date | date(format="%Y-%m-%d") }}</time>
+            </div>
+        {% endfor -%}
+    </main>
+
+    {% if paginator %}
+        <ul class="pagination">
+            {% if paginator.previous %}
+                <span class="page-item page-prev">
+                    <a href={{ paginator.previous }} class="page-link" aria-label="Previous"><span aria-hidden="true">← Prev</span></a>
+                </span>
+            {% endif %}
+            {% if paginator.next %}
+                <span class="page-item page-next">
+                    <a href={{ paginator.next }} class="page-link" aria-label="Next"><span aria-hidden="true">Next →</span></a>
+                </span>
+            {% endif %}
+        </ul>
+    {% endif %}
+{% endblock main_content %}

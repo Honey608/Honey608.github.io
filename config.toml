@@ -1,5 +1,5 @@
-base_url = "https://not-matthias.github.io/apollo/"
-title = "not-matthias"
+base_url = "https://Honey608.github.io"
+title = "Honey"
 description = "This is an example description"
 build_search_index = true
 generate_feeds = true
@@ -18,7 +18,7 @@ index_format = "elasticlunr_json"
 style = "class"
 light_theme = "github-light"
 dark_theme = "github-dark"
-error_on_missing_language = true
+error_on_missing_language = false
 
 [extra]
 toc = true
@@ -28,21 +28,19 @@ theme = "toggle"              # light, dark, auto, toggle, toggle-auto
 fancy_code = true
 dynamic_note = true           # a note that can be toggled
 mathjax = true
-repo_url = "https://github.com/not-matthias/apollo/tree/main/content/"
+repo_url = ""
 
 fediverse = false    # author attribution
 fediverse_creator = ""    # e.g. @user@instance
 
 menu = [
     { name = "/posts", url = "/posts", weight = 1 },
-    { name = "/projects", url = "/projects", weight = 2 },
-    { name = "/talks", url = "/talks", weight = 3 },
+    { name = "/resources", url = "/projects", weight = 2 },
+    { name = "/thoughts", url = "/talks", weight = 3 },
     { name = "/tags", url = "/tags", weight = 4 },
 ]
 
 socials = [
-    { name = "twitter", url = "https://twitter.com/not_matthias", icon = "twitter" },
-    { name = "github", url = "https://github.com/not-matthias/", icon = "github" },
 ]
 
 stylesheets = [

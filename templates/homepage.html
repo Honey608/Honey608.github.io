@@ -8,6 +8,44 @@
                 {{ section.content | safe }}
             </section>
         </article>
+
+        <div class="homepage-blocks">
+            {# Recent Posts #}
+            {% set posts_section = get_section(path="posts/_index.md") %}
+            {% set recent_posts = posts_section.pages | slice(end=5) %}
+            {% if recent_posts %}
+                <div class="homepage-block">
+                    <h2 class="homepage-block-title"><a href="/posts">最近文章</a></h2>
+                    <ul class="homepage-list">
+                        {%- for page in recent_posts %}
+                            <li class="homepage-list-item">
+                                <a href={{ page.permalink | safe }} class="homepage-item-title">{{ page.title }}</a>
+                                <time class="homepage-item-date">{{ page.date | date(format="%m-%d") }}</time>
+                            </li>
+                        {% endfor -%}
+                    </ul>
+                    <a href="/posts" class="homepage-more">查看更多文章 →</a>
+                </div>
+            {% endif %}
+
+            {# Recent Thoughts #}
+            {% set thoughts_section = get_section(path="talks/_index.md") %}
+            {% set recent_thoughts = thoughts_section.pages | slice(end=3) %}
+            {% if recent_thoughts %}
+                <div class="homepage-block">
+                    <h2 class="homepage-block-title"><a href="/talks">最近随想</a></h2>
+                    <ul class="homepage-list">
+                        {%- for page in recent_thoughts %}
+                            <li class="homepage-thought-item">
+                                <div class="homepage-thought-body">{{ page.content | safe }}</div>
+                                <time class="homepage-item-date">{{ page.date | date(format="%Y-%m-%d") }}</time>
+                            </li>
+                        {% endfor -%}
+                    </ul>
+                    <a href="/talks" class="homepage-more">查看更多随想 →</a>
+                </div>
+            {% endif %}
+        </div>
     </main>
 {% endmacro home_page %}
 

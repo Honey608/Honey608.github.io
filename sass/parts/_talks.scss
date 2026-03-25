@@ -105,3 +105,46 @@
         content: "";
     } */
 }
+
+// Thoughts feed (timeline style)
+.thoughts-feed {
+    padding: 1rem 0;
+
+    .thought-item {
+        display: flex;
+        flex-direction: column;
+        padding: 1.4rem 0;
+        border-bottom: 1px solid var(--border-color);
+
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+
+    .thought-date {
+        font-family: var(--mono-text-font);
+        font-size: 0.8rem;
+        color: var(--text-1);
+        margin-top: 0.8rem;
+        text-align: right;
+        opacity: 0.6;
+    }
+
+    .thought-body {
+        line-height: 1.8;
+
+        p {
+            margin: 0 0 0.7rem 0;
+            &:last-child { margin-bottom: 0; }
+        }
+
+        blockquote {
+            margin: 0.6rem 0;
+        }
+
+        h1, h2, h3 {
+            margin-top: 1rem;
+            margin-bottom: 0.4rem;
+        }
+    }
+}

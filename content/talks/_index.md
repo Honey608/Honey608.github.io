@@ -1,7 +1,5 @@
 +++
-title = "Talks"
+title = "Thoughts"
 sort_by = "date"
-template = "talks.html"
+template = "thoughts.html"
 +++
-
-A collection of talks and presentations I've given at various conferences and meetups.
