@@ -225,6 +225,26 @@ del {
         color: var(--text-0);
     }
 
+    .read-more-btn {
+        display: inline-block;
+        margin-top: 0.5rem;
+        padding: 0.3rem 0.8rem;
+        font-size: 0.85rem;
+        font-weight: 500;
+        color: var(--primary-color);
+        background: var(--bg-1);
+        border: 1px solid var(--primary-color);
+        border-radius: 4px;
+        text-decoration: none;
+        transition: all 0.2s ease;
+
+        &:hover {
+            background: var(--primary-color);
+            color: var(--bg-1);
+            text-decoration: none;
+        }
+    }
+
     .homepage-more {
         display: inline-block;
         margin-top: 1rem;

@@ -14,6 +14,9 @@ include_path = true
 include_content = true
 index_format = "elasticlunr_json"
 
+[markdown]
+insert_anchor_links = 'none'
+
 [markdown.highlighting]
 style = "class"
 light_theme = "github-light"
@@ -35,9 +38,10 @@ fediverse_creator = ""    # e.g. @user@instance
 
 menu = [
     { name = "/posts", url = "/posts", weight = 1 },
-    { name = "/resources", url = "/projects", weight = 2 },
-    { name = "/thoughts", url = "/talks", weight = 3 },
-    { name = "/tags", url = "/tags", weight = 4 },
+    { name = "/books", url = "/books", weight = 2 },
+    { name = "/resources", url = "/projects", weight = 3 },
+    { name = "/thoughts", url = "/talks", weight = 4 },
+    { name = "/tags", url = "/tags", weight = 5 },
 ]
 
 socials = [

@@ -22,6 +22,22 @@
 
         {%- for page in show_pages %}
             <div class="thought-item">
+                {% if page.extra.author or page.extra.book %}
+                <div class="book-meta">
+                    {% if page.extra.book %}
+                    <div class="book-title">
+                        <span class="book-icon">📖</span>
+                        <strong>{{ page.extra.book }}</strong>
+                    </div>
+                    {% endif %}
+                    {% if page.extra.author %}
+                    <div class="book-author">
+                        <span class="author-label">作者：</span>
+                        <span>{{ page.extra.author }}</span>
+                    </div>
+                    {% endif %}
+                </div>
+                {% endif %}
                 <div class="thought-body">
                     {% if page.summary %}
                         {{ page.summary | safe }}

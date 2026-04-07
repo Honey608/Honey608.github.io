@@ -6,46 +6,47 @@ date = 2026-01-03
 tags = ["web"]
 +++
 <!-- more -->
+
 ## 学习资料
-**<fo
 
-> react学习记录
-nt style="color:rgb(23, 43, 77);">react源码解读</font>**
+> react 学习记录
 
-+ [<font style="color:rgb(0, 82, 204);">React技术揭秘</font>](https://react.iamkasong.com/)
+### React 源码解读
 
-**<font style="color:rgb(23, 43, 77);">性能优化</font>**
+- [React技术揭秘](https://react.iamkasong.com/)
 
-+ [<font style="color:rgb(0, 82, 204);">内存泄露排查</font>](https://mp.weixin.qq.com/s/DX4ry8oGHQ6fz1hauWpfzA)
+### 性能优化
 
-**<font style="color:rgb(0, 0, 0);">React Hooks基础</font>**
+- [内存泄露排查](https://mp.weixin.qq.com/s/DX4ry8oGHQ6fz1hauWpfzA)
 
-+ [<font style="color:rgb(0, 82, 204);">React Hooks基础</font>](https://juejin.cn/post/6888668676711841800)
+### React Hooks 基础
 
-**<font style="color:rgb(23, 43, 77);">react-hooks三部曲</font>**
+- [React Hooks基础](https://juejin.cn/post/6888668676711841800)
 
-+ [<font style="color:rgb(0, 82, 204);">第一部： react-hooks如何使用</font>](https://juejin.cn/post/6864438643727433741)<font style="color:rgb(23, 43, 77);"> </font><font style="color:rgb(23, 43, 77);"> </font>
-+ [<font style="color:rgb(0, 82, 204);">第二部：玩转react-hooks,自定义hooks设计模式及其实战</font>](https://juejin.cn/post/6890738145671938062)<font style="color:rgb(23, 43, 77);"> </font><font style="color:rgb(23, 43, 77);"> </font>
-+ [<font style="color:rgb(0, 82, 204);">第三部：「react进阶」一文吃透react-hooks原理</font>](https://juejin.cn/post/6944863057000529933)<font style="color:rgb(23, 43, 77);"> </font><font style="color:rgb(23, 43, 77);"> </font>
+### React Hooks 三部曲
 
-**<font style="color:rgb(23, 43, 77);">react进阶系列</font>**
+- [第一部：react-hooks如何使用](https://juejin.cn/post/6864438643727433741)
+- [第二部：玩转react-hooks，自定义hooks设计模式及其实战](https://juejin.cn/post/6890738145671938062)
+- [第三部：「react进阶」一文吃透react-hooks原理](https://juejin.cn/post/6944863057000529933)
 
-+ [<font style="color:rgb(0, 82, 204);">「react进阶」年终送给react开发者的八条优化建议</font>](https://juejin.cn/post/6908895801116721160)<font style="color:rgb(23, 43, 77);"> </font><font style="color:rgb(23, 43, 77);"> </font>
-+ [<font style="color:rgb(0, 82, 204);">「react进阶」一文吃透React高阶组件(HOC)</font>](https://juejin.cn/post/6940422320427106335)<font style="color:rgb(23, 43, 77);"> </font><font style="color:rgb(23, 43, 77);"> </font>
+### React 进阶系列
 
-**<font style="color:rgb(23, 43, 77);">react源码系列</font>**
+- [「react进阶」年终送给react开发者的八条优化建议](https://juejin.cn/post/6908895801116721160)
+- [「react进阶」一文吃透React高阶组件(HOC)](https://juejin.cn/post/6940422320427106335)
 
-+ [<font style="color:rgb(0, 82, 204);">「源码解析 」这一次彻底弄懂react-router路由原理</font>](https://juejin.cn/post/6886290490640039943)<font style="color:rgb(23, 43, 77);"> </font><font style="color:rgb(23, 43, 77);"> </font>
-+ [<font style="color:rgb(0, 82, 204);">「源码解析」一文吃透react-redux源码（useMemo经典源码级案例）</font>](https://juejin.cn/post/6937491452838559781)<font style="color:rgb(23, 43, 77);"> </font>
+### React 源码系列
 
-**<font style="color:rgb(23, 43, 77);">开源项目系列</font>**
+- [「源码解析 」这一次彻底弄懂react-router路由原理](https://juejin.cn/post/6886290490640039943)
+- [「源码解析」一文吃透react-redux源码（useMemo经典源码级案例）](https://juejin.cn/post/6937491452838559781)
 
-+ [<font style="color:rgb(0, 82, 204);">「react缓存页面」从需求到开源（我是怎么样让产品小姐姐刮目相看的）</font>](https://juejin.cn/post/6922340460136513549)<font style="color:rgb(23, 43, 77);"> </font>
-+ [<font style="color:rgb(0, 82, 204);">「前端工程化」从0-1搭建react，ts脚手架（1.2w字超详细教程）</font>](https://juejin.cn/post/6919308174151385096)<font style="color:rgb(23, 43, 77);">  </font>
+### 开源项目系列
 
-**<font style="color:rgb(23, 43, 77);">TypeScript教程</font>**
+- [「react缓存页面」从需求到开源（我是怎么样让产品小姐姐刮目相看的）](https://juejin.cn/post/6922340460136513549)
+- [「前端工程化」从0-1搭建react，ts脚手架（1.2w字超详细教程）](https://juejin.cn/post/6919308174151385096)
 
-+ [<font style="color:rgb(0, 82, 204);">第一部： TypeScript入门教程</font>](https://ts.xcatliu.com/)
+### TypeScript 教程
+
+- [第一部：TypeScript入门教程](https://ts.xcatliu.com/)
 
 ## JSX的本质
 <!-- 这是一张图片，ocr 内容为： -->
