@@ -28,37 +28,6 @@
                 </div>
             {% endif %}
 
-            {# Recent Articles (Books + Posts) #}
-            {% set books_section = get_section(path="books/_index.md") %}
-            {% set posts_section = get_section(path="posts/_index.md") %}
-            
-            {# 合并 Books 和 Posts 的文章 #}
-            {% set all_articles = [] %}
-            {% for page in books_section.pages %}
-                {% set_global all_articles = all_articles | concat(with=[page]) %}
-            {% endfor %}
-            {% for page in posts_section.pages %}
-                {% set_global all_articles = all_articles | concat(with=[page]) %}
-            {% endfor %}
-            
-            {# 按日期排序并取前 5 篇 #}
-            {% set recent_articles = all_articles | sort(attribute="date") | reverse | slice(end=5) %}
-            
-            {% if recent_articles %}
-                <div class="homepage-block">
-                    <h2 class="homepage-block-title"><a href="/posts">最近文章</a></h2>
-                    <ul class="homepage-list">
-                        {%- for page in recent_articles %}
-                            <li class="homepage-list-item">
-                                <a href={{ page.permalink | safe }} class="homepage-item-title">{{ page.title }}</a>
-                                <time class="homepage-item-date">{{ page.date | date(format="%m-%d") }}</time>
-                            </li>
-                        {% endfor -%}
-                    </ul>
-                    <a href="/posts" class="homepage-more">查看更多文章 →</a>
-                </div>
-            {% endif %}
-
             {# Recent Thoughts #}
             {% set thoughts_section = get_section(path="talks/_index.md") %}
             {% set recent_thoughts = thoughts_section.pages | slice(end=3) %}
